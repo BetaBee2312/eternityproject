@@ -1,0 +1,82 @@
+<html>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/list.css">
+<script src="/js/bootstrap.min.js"></script>
+<script src="search.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body class="bg-dark" data-bs-theme="dark" style="font-family: 'Roboto', sans-serif;">
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Bookmark</a>
+              </li>
+          </ul>
+              <input class="search-form" type="search" placeholder="Cari..." aria-label="Search" id="searchInput">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="searchImages()">Search</button>
+      </div>
+  </div>
+</nav>
+<!--navbar end-->
+
+<!--List-->
+<div class="list-komik">
+  <h1 class="judul">Action</h1>
+  <div class="horizontal-scroll">
+    <div class="container-list" id="imageContainer">
+      <div class="gmbr">
+        <img src="/img/komik-aot.jpg" alt="Shingeki No Kyojin">
+        <figcaption>Shingeki No Kyojin</figcaption>
+      </div>
+      <div class="gmbr">
+        <img src="/img/komik-apo.jpg" alt="Apocalypse Insect Master">
+        <figcaption>Apocalypse Insect Master</figcaption>
+      </div>
+      <div class="gmbr">
+        <img src="/img/komik-domestic.jpg" alt="Domestication of Divine Beasts at the Beginning">
+        <figcaption>Domestication of Divine Beasts at the Beginning</figcaption>
+      </div>
+      <div class="gmbr">
+        <img src="/img/komik-foreigner.jpg" alt="Foreigner on the Periphery">
+        <figcaption>Foreigner on the Periphery</figcaption>
+      </div>
+      <div class="gmbr">
+        <img src="/img/komik-jjk.jpg" alt="Jujutsu Kaisen">
+        <figcaption>Jujutsu Kaisen</figcaption>
+      </div>
+      <div class="gmbr">
+        <img src="/img/komik-leveling.jpg" alt="Leveling In The Future">
+        <figcaption>Leveling In The Future</figcaption>
+      </div>
+      <div class="gmbr">
+        <img src="/img/komik-merce.jpg" alt="Mercenary Enrollment">
+        <figcaption>Mercenary Enrollment</figcaption>
+      </div>
+      <div class="gmbr">
+        <img src="/img/komik-nano.jpg" alt="Nano Machine">
+        <figcaption>Nano Machine</figcaption>
+      </div>
+      <div class="gmbr">
+        <img src="/img/komik-rank.jpg" alt="Rank no Ura Soubi Musou">
+        <figcaption>Rank no Ura Soubi Musou</figcaption>
+      </div>
+      <div class="gmbr">
+        <img src="/img/komik-return.jpg" alt="Return of the Legend">
+        <figcaption>Return of the Legend</figcaption>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End List-->
+</body>
+</html>

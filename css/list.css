@@ -1,0 +1,75 @@
+.gmbr img {
+    width: 150px;
+    height: 200px;
+}
+
+.container-list {
+    display: flex;
+    gap: 1rem;
+    margin: 2%;
+    margin-right: 2%;
+}
+
+.horizontal-scroll {
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-color: transparent transparent;
+    margin-right: 2%;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.judul {
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.login-container {
+    margin-top: 150px; /* Jarak dari atas */
+}
+.login-form {
+    background-color: #495057; /* Warna latar belakang form */
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.log {
+    background-color: #013970;
+    border: 0;
+    width: 270px;
+    height: 10%;
+    border-radius: 50px;
+}
+
+.gmbr figcaption {
+    opacity: 0;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    transition: all 500ms;
+}
+
+.gmbr:hover figcaption {
+    opacity: 1;
+    transition: all 500ms;
+}
+
+.gmbr {
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.search-form {
+    background-color: antiquewhite;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 2px;
+}
